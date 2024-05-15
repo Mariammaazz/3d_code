@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../css/x3dom.css">
+
+    <title>My Fanta 3D</title>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-sm navbar_coca_cola">
+      <!--Brand-->
+      <div class="logo">
+          <a class="navbar-brand" href="#">
+              <h3>My&nbsp;</h3>
+              <h1>1</h1>
+              <h1>oca</h1>
+              <h2>Cola</h2>
+              <h3>Brand<sup>TM</sup></h3>
+              <p class="para">A custom made Coca Cola Model</p>
+          </a>
+      </div>
+          
+      <!--Collapsible Navbar Menu Icon-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--Link Menu item button to the links class navbar-collapse selector-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!--Links-->
+          <ul class="navbar-nav ml-auto"><!--Use mx-auto to align center, default to left or use mr-auto, these are used to pull right -->
+              <li class="nav-item">
+                  <a class="nav-link active" href="../home/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" 
+                title="My 3D App" data-content="This is my 3D project">About</a>
+            </li>
+            <!--Dropdown-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Drinks</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="../coke/coca_cola.html">Coca Cola</a>
+                  <a class="dropdown-item" href="fanta.html">Fanta</a>
+                  <a class="dropdown-item" href="../sprite/sprite.html">Sprite</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" 
+                title="My Contact" data-content="Contact me on +971 50 401 1543">Contact</a>
+            </li>
+          </ul>
+      </div>
+  </nav>
+    <!--3D Rendering-->
+    <div class="contents">
+      <h2 class="center textbox">Fanta Can 3D</h2>
+      <p class="textbox">
+        I created this fanta can in 3ds Max and converted it in to X3D using Instant Reality AOPT tool then rendered the same in HTML using X3DOM css and JavaScript libraries.
+      </p>
+      <div class="can-style fanta">
+        <x3d width="500px" height="400px"> 
+          <scene>
+            <inline url="export/fanta_animation.x3d"> </inline> 
+          </scene> 
+        </x3d>
+      </div>
+    </div>
+
+  <br/> <!--Temporary break until we style the template-->
+  <!--Your 3D App footer-->
+  <nav class="navbar navbar-expand-sm footer">
+      <div class="container">
+          <div class="navbar-text float-left copyright">
+              <p><span class="align-baseline"></span>&copy; 2024 Mobile Web 3D Applications</span></p>
+          </div>
+          <div class="navbar-text float-right social">
+              <a href="#"><i class="fab fa-facebook-square fa-2x fa-color"></i></a>
+              <a href="#"><i class="fab fa-twitter-square fa-2x fa-color"></i></a>
+              <a href="#"><i class="fab fa-google-plus-square fa-2x fa-color"></i></a>  
+              <a href="#"><i class="fab fa-github-square fa-2x fa-color"></i></a>         
+          </div>
+      </div>
+  </nav>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"  ></script>
+  -->
+  <script src="../js/jquery-3.5.1.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.js"></script>
+  <script src="../js/fontawesome.js"></script>
+  <script src="../js/custom.js"></script>
+  <script src="../js/x3dom.js"></script>
+</body>
+</html>
